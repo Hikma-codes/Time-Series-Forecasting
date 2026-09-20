@@ -1,0 +1,29 @@
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Google Colab
+drive/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model/checkpoint files
+*.h5
+*.keras
+*.ckpt
